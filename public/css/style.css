@@ -1,0 +1,121 @@
+.navbar {
+  background-color: #007acc;
+  border-radius:5px;
+  height:75px;
+}
+
+.navbar .navbar-header a{
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  font-size: 2.25em;
+  padding-top: .7em;
+}
+
+.navbar .navbar-nav li a {
+  color: white;
+  font-size: 1.3em;
+  padding-top: 1.5em;
+  margin-left: 5em;
+}
+
+#titleText {
+  font-family: 'Cinzel', serif;
+  font-size: 2.5em;
+}
+
+#headerImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 225px;
+}
+
+#emergency {
+  min-height: 100%;
+  box-shadow:inset 1px 1px 40px 0 #f5f5ef;
+  border-bottom:2px solid #fff;
+  border-right:2px solid #fff;
+  margin:5% auto 0 auto;
+  background:url("../img/emergency.jpg");
+  background-size:cover;
+  border-radius:2px;
+  overflow:hidden;
+}
+
+#rehab {
+  height: 100%;
+  box-shadow:inset 1px 1px 40px 0 #f5f5ef;
+  border-bottom:2px solid #fff;
+  border-right:2px solid #fff;
+  margin:5% auto 0 auto;
+  background:url("../img/rehab.jpg");
+  background-size:cover;
+  border-radius:2px;
+  overflow:hidden;
+  margin-right: 10px;
+}
+
+#mental {
+  height: 100%;
+  box-shadow:inset 1px 1px 40px 0 #f5f5ef;
+  border-bottom:2px solid #fff;
+  border-right:2px solid #fff;
+  margin:5% auto 0 auto;
+  background:url("../img/mental.jpg");
+  background-size:cover;
+  border-radius:2px;
+  overflow:hidden;
+  margin-right: 10px;
+}
+
+#cancer {
+  height: 100%;
+  box-shadow:inset 1px 1px 40px 0 #f5f5ef;
+  border-bottom:2px solid #fff;
+  border-right:2px solid #fff;
+  margin:5% auto 0 auto;
+  background:url("../img/cancer.jpg");
+  background-size:cover;
+  border-radius:2px;
+  overflow:hidden;
+  margin-right: 10px;
+}
+
+#diagnostic {
+  height: 100%;
+  box-shadow:inset 1px 1px 40px 0 #f5f5ef;
+  border-bottom:2px solid #fff;
+  border-right:2px solid #fff;
+  margin:5% auto 0 auto;
+  background:url("../img/diagnostic.jpg");
+  background-size:cover;
+  border-radius:2px;
+  overflow:hidden;
+  margin-right: 10px;
+}
+
+#misc {
+  height: 100%;
+  box-shadow:inset 1px 1px 40px 0 #f5f5ef;
+  border-bottom:2px solid #fff;
+  border-right:2px solid #fff;
+  margin:5% auto 0 auto;
+  background:url("../img/hospital.jpg");
+  background-size:cover;
+  border-radius:2px;
+  overflow:hidden;
+  margin-right: 10px;
+}
+
+.overlayDept {
+  background:#f5f5ef;
+  text-align:center;
+  padding:90px 0 250px 0;
+  opacity:0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+.overlayDept:hover {
+  opacity:0.9;
+}

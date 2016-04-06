@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Kanit' rel='stylesheet' type='text/css'>
     <!-- AngularJS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.js"></script>
     <!--Angular UI Router -->
@@ -24,7 +26,8 @@
     <script src="/js/services.js"></script>
   </head>
   <body ng-app="PatientPassport">
-    <div class="container">  
+  <div class="container">
+    <div ng-include="'views/navbar.html'"></div>  
       <div ui-view></div>
   </div>
   </body>

@@ -16,6 +16,18 @@ router.route('/')
     });
   });
 
+router.get('/search', function(req, res) {
+  var searchTerm = req.query.searchTerm;
+  console.log(searchTerm)
+  Location.find({
+    service: { 
+      $regex: new RegExp(searchTerm, 'i')
+    } 
+  }).exec(function(err, directions){
+    res.send(directions);
+  });
+})
+
 router.route('/:id')
   .get(function(req, res) {
     Location.findById(req.params.id, function(err, directions) {

@@ -10,7 +10,8 @@ angular.module('PatientPassport', ['ui.router', 'LocationCtrls'])
   $stateProvider
   .state('home', {
     url: '/',
-    templateUrl: 'views/home.html'
+    templateUrl: 'views/home.html',
+    controller: 'Locations'
   })
   .state('locations', {
     url: '/locations',

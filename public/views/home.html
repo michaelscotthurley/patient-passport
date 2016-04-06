@@ -1,1 +1,97 @@
-<h1>Patient Passport</h1>
+<h1 id="titleText" class="text-center">Princeton-Plainsboro Teaching Hospital</h1>
+<img src="../img/hospheader2.png" id="headerImg">
+<p class="lead text-center">Our Patient Passport will allow you to easily find your appointment.<br>
+Click a link below or use the search bar above to find directions.</p>
+
+<div class="row">
+  <div class="col-md-6">
+    <div id="emergency">
+      <div class="overlayDept">
+        <div class="serviceList"><h1 id="departmentTitle">Emergency Services</h1>
+          <div ng-repeat="l in locations">
+            <a ng-if="l.department == 'Emergency Services'" ng-href="/locations/{{l._id}}">
+              {{l.service}}<br>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div id="misc">
+      <div class="overlayDept">
+        <div class="serviceList"><h1 id="departmentTitle">Hospital Services</h1>
+          <div ng-repeat="l in locations">
+            <a ng-if="l.department == 'Hospital Services'" ng-href="/locations/{{l._id}}">
+              <p>{{l.service}}</p><br>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <div id="mental">
+      <div class="overlayDept">
+        <div class="serviceList"><h1 id="departmentTitle">Mental and Behavioral Health</h1>
+          <div ng-repeat="l in locations">
+            <a ng-if="l.department == 'Mental and Behavioral Health'" ng-href="/locations/{{l._id}}">
+              {{l.service}}<br>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div id="rehab">
+      <div class="overlayDept">
+        <div class="serviceList"><h1 id="departmentTitle">Rehabilitation Services</h1>
+          <div ng-repeat="l in locations">
+            <a ng-if="l.department == 'Rehabilitation Services'" ng-href="/locations/{{l._id}}">
+              <p>{{l.service}}</p><br>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <div id="diagnostic">
+      <div class="overlayDept">
+        <div class="serviceList"><h1 id="departmentTitle">Diagnostic Imaging</h1>
+          <div ng-repeat="l in locations">
+            <a ng-if="l.department == 'Diagnostic Imaging'" ng-href="/locations/{{l_.id}}">
+              {{l.service}}<br>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div id="cancer">
+      <div class="overlayDept">
+        <div class="serviceList"><h1 id="departmentTitle">Cancer Care</h1>
+          <div ng-repeat="l in locations">
+            <a ng-if="l.department == 'Cancer Care'" ng-href="/locations/{{l._id}}">
+              <p>{{l.service}}</p><br>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
