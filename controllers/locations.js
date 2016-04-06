@@ -16,7 +16,7 @@ router.route('/')
     });
   });
 
-router.route('/locations/:id')
+router.route('/:id')
   .get(function(req, res) {
     Location.findById(req.params.id, function(err, directions) {
       if (err) return res.status(500).send(err);

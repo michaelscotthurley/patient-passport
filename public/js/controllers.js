@@ -1,11 +1,19 @@
-angular.module('LocationCtrls', [])
+angular.module('LocationCtrls', ['LocationServices'])
 
-.controller('Locations', ['$scope', '$http', function($scope, $http) {
+.controller('Locations', ['$scope', 'Location', function($scope, Location) {
   $scope.locations = [];
-
-  $http.get('/api/locations').then(function success(res) {
-    $scope.locations = res.data;
+  Location.query(function success(res) {
+    $scope.locations = res;
+    console.log(res);
   }, function error(res) {
     console.log(res);
   });
-}]);
+}])
+.controller('Directions', ['$scope', '$stateParams', 'Location', function($scope, $stateParams, Location) {
+  $scope.locations = {};
+  Location.get({id: $stateParams.id}, function success(data) {
+    $scope.locations = data;
+  }, function error(data) {
+    console.log(data);
+  });
+}])

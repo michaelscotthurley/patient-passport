@@ -17,6 +17,11 @@ angular.module('PatientPassport', ['ui.router', 'LocationCtrls'])
     templateUrl: 'views/alllocations.html',
     controller: 'Locations'
   })
+  .state('directions', {
+    url: '/locations/:id',
+    templateUrl: 'views/directions.html',
+    controller: 'Directions'
+  })
   .state('404', {
     url: '/404',
     templateUrl: 'views/404.html'
