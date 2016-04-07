@@ -10,7 +10,7 @@ Click a link below or use the search bar above to find directions.</p>
         <div class="serviceList"><h1 id="departmentTitle">Emergency Services</h1>
           <div ng-repeat="l in locations">
             <a ng-if="l.department == 'Emergency Services'" ng-href="/locations/{{l._id}}">
-              {{l.service}}<br>
+              <p>{{l.service}}</p><br>
             </a>
           </div>
         </div>
@@ -40,7 +40,7 @@ Click a link below or use the search bar above to find directions.</p>
         <div class="serviceList"><h1 id="departmentTitle">Mental and Behavioral Health</h1>
           <div ng-repeat="l in locations">
             <a ng-if="l.department == 'Mental Health Services'" ng-href="/locations/{{l._id}}">
-              {{l.service}}<br>
+              <p>{{l.service}}</p><br>
             </a>
           </div>
         </div>
@@ -70,7 +70,7 @@ Click a link below or use the search bar above to find directions.</p>
         <div class="serviceList"><h1 id="departmentTitle">Diagnostic Imaging</h1>
           <div ng-repeat="l in locations">
             <a ng-if="l.department == 'Diagnostic Imaging'" ng-href="/locations/{{l_.id}}">
-              {{l.service}}<br>
+              <p>{{l.service}}</p><br>
             </a>
           </div>
         </div>
