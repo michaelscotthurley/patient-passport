@@ -5,7 +5,8 @@ var app = express();
 
 var mongoose = require('mongoose');
 var Location = require('./models/location');
-mongoose.connect('mongodb://localhost/patientpassport');
+var mongodbUri = process.env.MONGO;
+mongoose.connect(mongodbUri);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
