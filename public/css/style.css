@@ -31,7 +31,6 @@
 }
 
 #emergency {
-  min-height: 100%;
   box-shadow:inset 1px 1px 40px 0 #f5f5ef;
   border-bottom:2px solid #fff;
   border-right:2px solid #fff;
@@ -43,7 +42,6 @@
 }
 
 #rehab {
-  height: 100%;
   box-shadow:inset 1px 1px 40px 0 #f5f5ef;
   border-bottom:2px solid #fff;
   border-right:2px solid #fff;
@@ -52,11 +50,9 @@
   background-size:cover;
   border-radius:2px;
   overflow:hidden;
-  margin-right: 10px;
 }
 
 #mental {
-  height: 100%;
   box-shadow:inset 1px 1px 40px 0 #f5f5ef;
   border-bottom:2px solid #fff;
   border-right:2px solid #fff;
@@ -65,11 +61,9 @@
   background-size:cover;
   border-radius:2px;
   overflow:hidden;
-  margin-right: 10px;
 }
 
 #cancer {
-  height: 100%;
   box-shadow:inset 1px 1px 40px 0 #f5f5ef;
   border-bottom:2px solid #fff;
   border-right:2px solid #fff;
@@ -78,11 +72,9 @@
   background-size:cover;
   border-radius:2px;
   overflow:hidden;
-  margin-right: 10px;
 }
 
 #diagnostic {
-  height: 100%;
   box-shadow:inset 1px 1px 40px 0 #f5f5ef;
   border-bottom:2px solid #fff;
   border-right:2px solid #fff;
@@ -91,11 +83,9 @@
   background-size:cover;
   border-radius:2px;
   overflow:hidden;
-  margin-right: 10px;
 }
 
 #misc {
-  height: 100%;
   box-shadow:inset 1px 1px 40px 0 #f5f5ef;
   border-bottom:2px solid #fff;
   border-right:2px solid #fff;
@@ -104,7 +94,6 @@
   background-size:cover;
   border-radius:2px;
   overflow:hidden;
-  margin-right: 10px;
 }
 
 .overlayDept {
