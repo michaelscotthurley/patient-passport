@@ -11,6 +11,7 @@ angular.module('PatientPassport', ['ui.router', 'LocationCtrls'])
   .state('home', {
     url: '/',
     templateUrl: 'views/home.html',
+    controller: 'Locations'
   })
   .state('locations', {
     url: '/locations',
