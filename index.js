@@ -6,7 +6,7 @@ var app = express();
 var mongoose = require('mongoose');
 var Location = require('./models/location');
 var mongodbUri = process.env.MONGOLAB_URI;
-mongoose.connect(mongodbUri || mongodb:"//localhost/patient-passport");
+mongoose.connect(mongodbUri || "mongodb://localhost/patient-passport");
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
