@@ -6,7 +6,7 @@ var app = express();
 var mongoose = require('mongoose');
 var Location = require('./models/location');
 var mongodbUri = process.env.MONGO;
-mongoose.connect('mongodb://heroku_rwcx0qxr:skru4qatmmjr9i92ajatq7lqlq@ds011218.mlab.com:11218/heroku_rwcx0qxr');
+mongoose.connect(mongodUri);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
