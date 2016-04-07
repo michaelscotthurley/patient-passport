@@ -1,6 +1,6 @@
 <h1 id="titleText" class="text-center">Princeton-Plainsboro Teaching Hospital</h1>
 <img src="../img/hospheader2.png" id="headerImg">
-<p class="lead text-center">Our Patient Passport will allow you to easily find your appointment.<br>
+<p class="lead text-center">Our Patient Passport app will allow you to easily find your appointment.<br>
 Click a link below or use the search bar above to find directions.</p>
 
 <div class="row">
@@ -19,11 +19,11 @@ Click a link below or use the search bar above to find directions.</p>
   </div>
 
   <div class="col-md-6">
-    <div id="misc">
+    <div id="cancer">
       <div class="overlayDept">
-        <div class="serviceList"><h1 id="departmentTitle">Hospital Services</h1>
+        <div class="serviceList"><h1 id="departmentTitle">Cancer Care</h1>
           <div ng-repeat="l in locations">
-            <a ng-if="l.department == 'Hospital Services'" ng-href="/locations/{{l._id}}">
+            <a ng-if="l.department == 'Cancer Care'" ng-href="/locations/{{l._id}}">
               <p>{{l.service}}</p><br>
             </a>
           </div>
@@ -49,22 +49,6 @@ Click a link below or use the search bar above to find directions.</p>
   </div>
 
   <div class="col-md-6">
-    <div id="cancer">
-      <div class="overlayDept">
-        <div class="serviceList"><h1 id="departmentTitle">Cancer Care</h1>
-          <div ng-repeat="l in locations">
-            <a ng-if="l.department == 'Cancer Care'" ng-href="/locations/{{l._id}}">
-              <p>{{l.service}}</p><br>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="row">
-   <div class="col-md-6">
     <div id="rehab">
       <div class="overlayDept">
         <div class="serviceList"><h1 id="departmentTitle">Rehabilitation Services</h1>
@@ -77,7 +61,9 @@ Click a link below or use the search bar above to find directions.</p>
       </div>
     </div>
   </div>
-  
+</div>
+
+<div class="row"> 
   <div class="col-md-6">
     <div id="diagnostic">
       <div class="overlayDept">
@@ -91,7 +77,31 @@ Click a link below or use the search bar above to find directions.</p>
       </div>
     </div>
   </div>
+
+  <div class="col-md-6">
+    <div id="misc">
+      <div class="overlayDept">
+        <div class="serviceList"><h1 id="departmentTitle">Hospital Services</h1>
+          <div ng-repeat="l in locations">
+            <a ng-if="l.department == 'Hospital Services'" ng-href="/locations/{{l._id}}">
+              <p>{{l.service}}</p><br>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+<div class="row footer">
+  <div class="col-xs-3">
+    <p>© Copyright 2016 Fake Hospitals, LLC</p>
+  </div>
+  <div class="col-xs-9">
+    <a href="#">About</a>
+  </div>
+</div>
+
 
 
 

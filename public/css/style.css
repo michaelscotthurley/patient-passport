@@ -4,11 +4,15 @@
   height:75px;
 }
 
-.navbar .navbar-header a{
+.navbar .navbar-header a {
   color: white;
   font-family: 'Kanit', sans-serif;
   font-size: 2.25em;
   padding-top: .7em;
+}
+
+.navbar .navbar-header a:hover {
+  color: #bfbfbf;
 }
 
 .navbar .navbar-nav li a {
@@ -16,6 +20,10 @@
   font-size: 1.3em;
   padding-top: 1.5em;
   margin-left: 5em;
+}
+
+.navbar .searchForm {
+  padding-top: .7em;
 }
 
 #titleText {
@@ -113,4 +121,37 @@
 
 .overlayDept:hover {
   opacity:0.9;
+}
+
+.footer {
+  background-color: #007acc;
+  border-radius:5px;
+  height:50px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding-right: 2em;
+  padding-top: .8em;
+  text-align: right
+}
+
+.footer a {
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #bfbfbf;
+}
+
+.footer p {
+  color: white;
+  font-family: 'Petit Formal Script', cursive;
+  font-size: .9em;
+  text-decoration: none;
+}
+
+.directionImage {
+  width: 100%;
 }
