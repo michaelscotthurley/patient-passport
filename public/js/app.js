@@ -13,20 +13,15 @@ angular.module('PatientPassport', ['ui.router', 'LocationCtrls'])
     templateUrl: 'views/home.html',
     controller: 'Locations'
   })
-  .state('locations', {
-    url: '/locations',
-    templateUrl: 'views/alllocations.html',
-    controller: 'Locations'
-  })
   .state('directions', {
     url: '/locations/:id',
     templateUrl: 'views/directions.html',
     controller: 'Directions'
   })
   .state('search', {
-    url: '/locations',
+    url: '/results',
     templateUrl: 'views/searchResults.html',
-    controller: 'SearchCtrl'
+    controller: 'ResultsCtrl'
   })
   .state('404', {
     url: '/404',
