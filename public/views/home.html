@@ -8,7 +8,7 @@ Click a link below or use the search bar above to find directions.</p>
     <div id="emergency">
       <div class="overlayDept">
         <div class="serviceList"><h1 class="departmentTitle">Emergency Services</h1>
-          <div ng-repeat="l in locations">
+          <div ng-repeat="l in locations | orderBy">
             <a ng-if="l.department == 'Emergency Services'" ng-href="/locations/{{l._id}}">
               <p>{{l.service}}</p><br>
             </a>
@@ -22,7 +22,7 @@ Click a link below or use the search bar above to find directions.</p>
     <div id="cancer">
       <div class="overlayDept">
         <div class="serviceList"><h1 class="departmentTitle">Cancer Care</h1>
-          <div ng-repeat="l in locations">
+          <div ng-repeat="l in locations | orderBy">
             <a ng-if="l.department == 'Cancer Care'" ng-href="/locations/{{l._id}}">
               <p>{{l.service}}</p><br>
             </a>
@@ -38,7 +38,7 @@ Click a link below or use the search bar above to find directions.</p>
     <div id="mental">
       <div class="overlayDept">
         <div class="serviceList"><h1 class="departmentTitle">Mental and Behavioral Health</h1>
-          <div ng-repeat="l in locations">
+          <div ng-repeat="l in locations | orderBy">
             <a ng-if="l.department == 'Mental Health Services'" ng-href="/locations/{{l._id}}">
               <p>{{l.service}}</p><br>
             </a>
@@ -52,7 +52,7 @@ Click a link below or use the search bar above to find directions.</p>
     <div id="rehab">
       <div class="overlayDept">
         <div class="serviceList"><h1 class="departmentTitle">Rehabilitation Services</h1>
-          <div ng-repeat="l in locations">
+          <div ng-repeat="l in locations | orderBy">
             <a ng-if="l.department == 'Rehabilitation Services'" ng-href="/locations/{{l._id}}">
               <p>{{l.service}}</p><br>
             </a>
@@ -68,8 +68,8 @@ Click a link below or use the search bar above to find directions.</p>
     <div id="diagnostic">
       <div class="overlayDept">
         <div class="serviceList"><h1 class="departmentTitle">Diagnostic Imaging</h1>
-          <div ng-repeat="l in locations">
-            <a ng-if="l.department == 'Diagnostic Imaging'" ng-href="/locations/{{l_.id}}">
+          <div ng-repeat="l in locations | orderBy">
+            <a ng-if="l.department == 'Diagnostic Imaging'" ng-href="/locations/{{l._id}}">
               <p>{{l.service}}</p><br>
             </a>
           </div>
@@ -82,7 +82,7 @@ Click a link below or use the search bar above to find directions.</p>
     <div id="misc">
       <div class="overlayDept">
         <div class="serviceList"><h1 class="departmentTitle">Hospital Services</h1>
-          <div ng-repeat="l in locations">
+          <div ng-repeat="l in locations | orderBy">
             <a ng-if="l.department == 'Hospital Services'" ng-href="/locations/{{l._id}}">
               <p>{{l.service}}</p><br>
             </a>
@@ -90,15 +90,6 @@ Click a link below or use the search bar above to find directions.</p>
         </div>
       </div>
     </div>
-  </div>
-</div>
-
-<div class="row footer">
-  <div class="col-xs-3">
-    <p>© Copyright 2016 Fake Hospitals, LLC</p>
-  </div>
-  <div class="col-xs-9">
-    <a href="#">About</a>
   </div>
 </div>
 
