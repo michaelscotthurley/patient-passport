@@ -26,6 +26,11 @@
   padding-top: .7em;
 }
 
+.well {
+  background-color: #b3c6ff;
+  color: white;
+}
+
 #titleText {
   font-family: 'Cinzel', serif;
   font-size: 3em;
