@@ -18,8 +18,8 @@
 [User Stories](https://docs.google.com/document/d/1PbmmIoLuYM5Gf3Pv1AEyc-aNVQ0rXlz3rrSZP99kIKg/pub)
 
 ###Wireframes
-[Main Page](https://drive.google.com/file/d/0B1SBovvlqeEbUDFOc3dTOHkwemtucTdEOHhqeVo4UlRPLXBB/view?usp=sharing)
-[Directions Page](https://drive.google.com/file/d/0B1SBovvlqeEbSm5jalFZOVpCVFFQN3Z6MVRXeGhGdXFpN1M4/view?usp=sharing)
+* [Main Page](https://drive.google.com/file/d/0B1SBovvlqeEbUDFOc3dTOHkwemtucTdEOHhqeVo4UlRPLXBB/view?usp=sharing)
+* [Directions Page](https://drive.google.com/file/d/0B1SBovvlqeEbSm5jalFZOVpCVFFQN3Z6MVRXeGhGdXFpN1M4/view?usp=sharing)
 
 ###Approach Taken
 My app idea came to me after a discussion with a friend about the poor signage at the hospital at which she works. She indicated that she wasted about a quarter of most of her work days guiding patients to their appointments. Furthermore, she stated that the hospital administration often complained about losing money due to patients being late or missing their appointments entirely.
