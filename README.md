@@ -3,16 +3,16 @@
 ![patientpassport](https://github.com/michaelscotthurley/patient-passport/raw/master/public/img/PatientPassport.png)
 
 ###Technologies Used:
-*HTML5
-*CSS3
-*Node.js
-*Express
-*MongoDB
-*Mongoose
-*AngularJS
-*Angular UI Router
-*Angular Resource
-*Bootstrap CSS
+* HTML5
+* CSS3
+* Node.js
+* Express
+* MongoDB
+* Mongoose
+* AngularJS
+* Angular UI Router
+* Angular Resource
+* Bootstrap CSS
 
 ###User Stories
 [User Stories](https://docs.google.com/document/d/1PbmmIoLuYM5Gf3Pv1AEyc-aNVQ0rXlz3rrSZP99kIKg/pub)
@@ -28,8 +28,8 @@ I struggled with what backend/database made sense for the app. I originally atte
 I wanted to focus on the front end in this project. One feature that I wanted to implement was a search box in the navigation bar for the user to search for particular departments in the hospital. This required the creation of an Angular service, and I struggled through coding this piece of the app.
 
 ###For Later
-*User login/accounts to manage appointments
-*Better styling of the directions page (perhaps some animations to slide between directions)
-*Better images/scaling 
-*Responsive design
-  *This was an original goal that I did not achieve. My hover animations on the main page do not work on mobile. This is something that I would like to re-work, as the end user would most likely be using this app on his/her mobile device.   
+* User login/accounts to manage appointments
+* Better styling of the directions page (perhaps some animations to slide between directions)
+* Better images/scaling 
+* Responsive design
+  * This was an original goal that I did not achieve. My hover animations on the main page do not work on mobile. This is something that I would like to re-work, as the end user would most likely be using this app on his/her mobile device.   
