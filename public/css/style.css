@@ -28,12 +28,12 @@
 
 .well {
   background-color: #b3c6ff;
-  color: white;
+  box-shadow: 7px 7px 5px #374552;
 }
 
-#titleText {
+.titleText {
   font-family: 'Cinzel', serif;
-  font-size: 3em;
+  font-size: 3.2em;
 }
 
 #headerImg {
@@ -128,6 +128,28 @@
   opacity:0.9;
 }
 
+.departmentTitle {
+  font-size: 2.8em;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: bold;
+}
+
+.serviceLink {
+  font-size: 2em;
+  font-family: 'Catamaran', sans-serif;
+  color: #007acc;
+}
+
+.resultLink {
+  font-size: 2em;
+  font-family: 'Catamaran', sans-serif;
+  color: #374552;
+}
+
+.resultLink:hover {
+  color:#374552;
+}
+
 .footer {
   background-color: #007acc;
   border-radius:5px;
@@ -155,6 +177,45 @@
   font-family: 'Petit Formal Script', cursive;
   font-size: .9em;
   text-decoration: none;
+}
+
+#directionHead {
+  font-size: 3em;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: bold;
+  color: #374552;
+}
+
+#directionLoc {
+  font-size: 2em;
+  font-family: 'Catamaran', sans-serif;
+  color: #374552;
+}
+
+#directionInfo {
+  font-size: 1.8em;
+  font-family: 'Catamaran', sans-serif;
+  color: #374552;
+  font-weight: bold;
+}
+
+.directionText {
+  font-size: 1.8em;
+  font-family: 'Catamaran', sans-serif;
+  color: #374552;
+  font-weight: bold;
+}
+
+.directionText a{
+  color: white;
+}
+
+.directionArrow {
+  font-size: 3em;
+  display: table;
+  margin: 0 auto;
+  margin-bottom: .7em;
+  color: #007acc;
 }
 
 .directionImage {
